@@ -1,9 +1,17 @@
+body{
+    
+    margin: 0;
+}
 h1{
-    color: rgb(228, 143, 47);
+    color: rgb(252, 250, 248);
     font-family: Arial, sans-serif;
+    background-color: rgb(23, 112, 153);
+    padding: 20px;
+    margin: 0;
 
 }
 p{
     color: black;
     font-family: arial, sans-serif;
+    
 }
