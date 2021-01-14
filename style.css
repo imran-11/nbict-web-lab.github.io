@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 }
-div{
-    border: 1px solid black;
-}
-#heading{
+
+#block1{
 background-color:#00FFFF;
 text-align: center;
-}
-#paragraph{
-background-color: #DEB887;
-text-align: justify;
+height: 200px;
+width: 500px;
+border: 1px solid black;
 
+
+}
+#block2{
+background-color: #DEB887;
+text-align: center;
+height: 200px;
+border: 1px solid black;
+width: 500px;
+padding: 50px;
 }
