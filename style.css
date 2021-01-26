@@ -6,11 +6,23 @@
    text-decoration: none;
     
 }
+.navbar .max-width{
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+
+.max-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 80px;
+}
 .navbar{
     background-color:crimson;
     position: fixed;
     width: 100%;
     font-family: Ubunto,sans-serif;
+    padding: 15px 0;
     
 }
 .navbar .logo a{
@@ -19,18 +31,26 @@
     font-weight: 600;
 }
 .navbar .logo span{
-    color: black
+    color: black;
+}
+.navbar .menu ul{
 }
 .navbar .menu li{
     display: inline-block;
 }
 .navbar .menu li a{
+    display: block;
     color: #fff;
-    font-size: 25px;
-    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+    
+    
+
    
 }
-.max-width{}
+
 
 .logo span{}
 
