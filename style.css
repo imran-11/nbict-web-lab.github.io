@@ -1,101 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap');
-
 *{
-    margin:0;
     padding: 0;
-   text-decoration: none;
-    
-}
-.navbar .max-width{
-display: flex;
-align-items: center;
-justify-content:space-between;
-}
-
-.max-width{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+  }
+  .navbar{
+    /* background: crimson; */
+    position: fixed;
+    width: 100%;
+    font-family: ubuntu,sans-serif;
+    padding: 15px 0;
+  }
+  .navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .max-width{
     max-width: 1300px;
     margin: auto;
     padding: 0 80px;
-}
-.navbar{
-    background-color:crimson;
-    position: fixed;
-    width: 100%;
-    font-family: Ubunto,sans-serif;
-    padding: 15px 0;
-    
-}
-.navbar .logo a{
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-}
-.navbar .logo span{
-    color: black;
-}
-.navbar .menu ul{
-}
-.navbar .menu li{
+  }
+  .navbar .logo a span{
+    color:crimson;
+  }
+  .navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  }
+  .navbar .menu li{
     display: inline-block;
-}
-.navbar .menu li a{
-    display: block;
-    color: #fff;
+    list-style: none;
+  
+  }
+  .navbar .menu li a:hover{
+    color:crimson;
+  }
+  .navbar .menu li a{
+    color:#fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-
-    
-    
-
-   
-}
-
-
-.logo span{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Ubuntu:wght@400;500;700&display=swap');
-*{
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-
-}
-
-#block1{
-background-color:#00FFFF;
-text-align: center;
-height: 200px;
-width: 500px;
-padding: 50px;
-border: 1px solid black;
-
-}
-#block2{
-background-color: #DEB887;
-text-align: center;
-height: 200px;
-width: 500px;
-padding: 50px;
-border: 1px solid black;
-}*/
+    transition: color 0.3s ease;
+  }
+  .home{
+    display: flex;
+    background: url("/ban2ner.jpg") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: ubundu, sans-serif;
+  }
+  .home .max-width{
+    margin: auto 0 auto 40px;
+  }
+  .home .home-content .text-1{
+    font-size: 27px;
+  }
+  .home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+  }
+  .home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0px;
+  }
+  .home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+  }
