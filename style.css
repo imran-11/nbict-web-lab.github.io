@@ -47,7 +47,7 @@
   }
   .home{
     display: flex;
-    background: url("/ban2ner.jpg") no-repeat center;
+    background: url("image/ban2ner.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
